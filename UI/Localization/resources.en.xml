@@ -394,28 +394,38 @@
 			<Control ID="tpgEmulation">模拟</Control>
 			<Control ID="lblSaveType">保存类型：</Control>
 			<Control ID="lblRtcType">实时时钟：</Control>
-			<Control ID="lblRamPowerOnState">RAM的默认开机状态：</Control>
-			<Control ID="chkAllowInvalidInput">允许无效输入（例如同时按下向下和向上，或向左和向右）</Control>
-			<Control ID="chkEnableMgbaLogApi">启用mGBA日志API</Control>
+			<Control ID="lblRamPowerOnState">RAM 默认上电状态：</Control>
+			<Control ID="chkAllowInvalidInput">允许无效输入（例如同时按下下和上或左和右）</Control>
+			<Control ID="chkEnableMgbaLogApi">启用 mGBA 日志 API</Control>
 
 			<Control ID="tpgVideo">视频</Control>
-			<Control ID="lblLcdSettings">LCD设置</Control>
-			<Control ID="chkGbBlendFrames">启用LCD帧混合</Control>
-			<Control ID="chkGbaAdjustColors">启用LCD颜色模拟</Control>
-			<Control ID="chkHideBgLayer1">隐藏背景层1</Control>
-			<Controls controlsId="1" name="复选框" type="checkbox" value="true">
-				<Data key="text">已选中的复选框</Data>
-			</Controls>
-			<Controls controlsId="2" name="下拉框" type="dropdown" value="选项2">
-				<Data key="text">下拉框中的选项有：选项1、选项2、选项3</Data>
-			</Controls>
-			<Controls controlsId="3" name="单选框" type="radio" value="男">
-				<Data key="text">性别：男、女</Data>
-			</Controls>
-			<Controls controlsId="4" name="文本框" type="textbox" value="这是文本框中的内容">
-				<Data key="text">请输入文本</Data>
-			</Controls>
-		</XmlData>
+			<Control ID="lblLcdSettings">LCD 设置</Control>
+			<Control ID="chkGbBlendFrames">启用 LCD 帧混合</Control>
+			<Control ID="chkGbaAdjustColors">启用 LCD 颜色模拟</Control>
+			<Control ID="chkHideBgLayer1">隐藏背景层 1</Control>
+			<Control ID="chkHideBgLayer2">隐藏背景层 2</Control>
+			<Control ID="chkHideBgLayer3">隐藏背景层 3</Control>
+			<Control ID="chkHideBgLayer4">隐藏背景层 4</Control>
+			<Control ID="chkDisableFrameSkipping">快速前进时禁用跳帧</Control>
+
+			<Control ID="chkDisableSprites">禁用精灵</Control>
+
+			<Control ID="lblMiscSettings">杂项设置</Control>
+
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="lblChannelA">通道 A</Control>
+			<Control ID="lblChannelB">通道 B</Control>
+			<Control ID="lblSquare1">方波 1</Control>
+			<Control ID="lblSquare2">方波 2</Control>
+			<Control ID="lblWave">波表</Control>
+			<Control ID="lblNoise">噪声</Control>
+
+			<Control ID="tpgInput">输入</Control>
+			<Control ID="grpControllers">控制器</Control>
+			<Control ID="lblPlayer1">玩家 1</Control>
+			<Control ID="btnSetup">设置</Control>
+		</Form>
 
 		<Form ID="PceConfigView">
 			<Control ID="tpgGeneral">常规</Control>
@@ -456,6 +466,7 @@
 			<Control ID="lblOverscan">过扫描</Control>
 			<Control ID="lblPalette">调色板</Control>
 		</Form>
+
 		<Form ID="ColorPickerWindow">
 			<Control ID="wndTitle">颜色选择器</Control>
 			<Control ID="btnOk">确定</Control>
@@ -1696,6 +1707,7 @@
 		<Message ID="ClearHistory">清除历史记录</Message>
 
 		<Message ID="SpcClockSpeedMsg">= {0} Hz（默认值：40）</Message>
+E
 		<Message ID="FirmwareNotFound">此游戏需要以下设备的固件文件：{0}。文件名：{1}，大小：{2} 字节。现在要选择它吗？</Message>
 		<Message ID="FirmwareMismatch">所选文件与 {0} 所需的固件不匹配。固件 SHA-256：{1}。所选文件的 SHA-256：{2}。无论如何都要使用此文件吗？</Message>
 		<Message ID="FirmwareFileWrongSize">所选文件与所需大小（{0} 字节）不匹配，无法使用。</Message>
