@@ -3361,8 +3361,8 @@ E
 			<Value ID="NewScript">New Script Window</Value>
 			<Value ID="BuiltInScripts">Built-in Scripts</Value>
 
-			<Value ID="Open">Open</Value>
-			<Value ID="Save">Save</Value>
+			<Value ID="Open">打开</Value>
+			<Value ID="Save">保存</Value>
 			<Value ID="SaveAs">Save as...</Value>
 			<Value ID="Exit">Exit</Value>
 
