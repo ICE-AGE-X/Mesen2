@@ -2,7 +2,7 @@
 <Resources>
 	<Forms>
 		<Form ID="MainMenuView">
-			<Control ID="mnuFile">_File</Control>
+			<Control ID="mnuFile">文件</Control>
 			<Control ID="mnuGame">_Game</Control>
 			<Control ID="mnuOptions">_Settings</Control>
 			<Control ID="mnuTools">_Tools</Control>
