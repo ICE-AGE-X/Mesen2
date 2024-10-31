@@ -812,7 +812,7 @@
 		</Form>
 		<Form ID="AboutWindow">
 			<Control ID="wndTitle">关于 - Mesen</Control>
-			<Control ID="lblName">Mesen</Control>
+			<Control ID="lblName">Mesen(Advance汉化版 by ICEAGE+doubao)</Control>
 			<Control ID="lblWebsite">网站：</Control>
 			<Control ID="lblLink">www.mesen.ca</Control>
 			<Control ID="lblVersion">版本：</Control>
